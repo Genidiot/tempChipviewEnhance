@@ -1,0 +1,119 @@
+{
+    "graphic": "polygon",
+    "height": 10,
+    "width": 4,
+    "basicPoint": {
+        "x": 0,
+        "y": 0
+    },
+    "polygonNodes": [
+        {
+            "x": 0,
+            "y": 0
+        },
+        {
+            "x": 4,
+            "y": 0
+        },
+        {
+            "x": 4,
+            "y": 10
+        },
+        {
+            "x": 0,
+            "y": 10
+        }
+    ],
+    "pinLayout": {
+        "block": "pin_def.json",
+        "leftPin": {
+            "multiple": [
+                {
+                    "pinName": "P",
+                    "direction": 1,
+                    "num": 4,
+                    "space": 2,
+                    "startPos": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "endPos": {
+                        "x": 0,
+                        "y": 7
+                    }
+                },
+                {
+                    "pinName": "G",
+                    "direction": 1,
+                    "num": 4,
+                    "space": 2,
+                    "startPos": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "endPos": {
+                        "x": 0,
+                        "y": 8
+                    }
+                }
+            ],
+            "single": [
+                {
+                    "pinName": "I[7]",
+                    "pos": {
+                        "x": 0,
+                        "y": 9
+                    }
+                }
+            ]
+        },
+        "rightPin": {
+            "multiple": [
+                {
+                    "pinName": "CO",
+                    "direction": 1,
+                    "num": 4,
+                    "space": 2,
+                    "startPos": {
+                        "x": 4,
+                        "y": 2.5
+                    },
+                    "endPos": {
+                        "x": 4,
+                        "y": 8.5
+                    }
+                },
+                {
+                    "pinName": "SUM",
+                    "direction": 1,
+                    "num": 4,
+                    "space": 2,
+                    "startPos": {
+                        "x": 4,
+                        "y": 1.5
+                    },
+                    "endPos": {
+                        "x": 4,
+                        "y": 7.5
+                    }
+                }
+            ]
+        },
+        "downPin": {
+            "single": [
+                {
+                    "pinName": "CAS_IN",
+                    "pos": {
+                        "x": 2,
+                        "y": 0
+                    }
+                }
+            ]
+        }
+    },
+    "deviceAttribute": {
+        "index": "x",
+        "type": "x",
+        "name": "x"
+    }
+}

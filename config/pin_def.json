@@ -1,0 +1,31 @@
+{
+    "graphic":"line",
+    "length":1,
+    "basicPoint":{
+        "x":0,
+        "y":0
+    },
+    "connectPoint":{
+        "leftPin":{
+            "x":-1,
+            "y":0
+        },
+        "rightPin":{
+            "x":1,
+            "y":0
+        },
+        "upPin":{
+            "x":0,
+            "y":1
+        },
+        "downPin":{
+            "x":0,
+            "y":-1
+        }
+    },
+    "deviceAttribute":{
+        "index":1,
+        "type":"pin",
+        "name":"sasa"
+    }
+}
